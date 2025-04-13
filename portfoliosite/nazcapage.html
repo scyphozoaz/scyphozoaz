@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="websitestylesheet.css">
+</head>
+<body>
+    <div class="header">
+        <img class="headerimage" src="JTNheader.png">
+    </div>
+
+    <button class="settingbutton toggledark JTNstyle" id="darkmodebutton" onclick="darkJTN()" style="border:5px solid #979700">Dark Mode</button>
+
+    <button class="settingbutton langtoggle JTNstyle" id="langtogglebutton" style="border: 5px solid #979700;" onclick="switchLang()">日本語</button>
+
+    <div id="JTN" class="mainbody JTNstyle" style="border: 5px solid #979700;">
+        <p id="en" style="display:block;">
+            This project isn't done yet! Check back later for more updates (or snoop around, if you're nosy!) 
+            <br><br>
+            As a TOTALLY UNRELATED reward for clicking on this page, check out this cool AMV I made.
+        </p>
+        <p id="jp" style="display:none;">
+            このプロジェクトはまだ終わっていません！後で更新をチェックしてくださいね。（好奇心旺盛なら、覗いてみて！）
+            <br><br>
+            このページをクリックしたという全く関係のないご褒美として、このAMVをチェックしてみてください。
+        </p>
+        
+        <div class="mediabox" style="border: 5px solid #979700;">
+            
+            <div class="mediatitle JTNstyle" id="JTNmediatitle">
+                <p id="mediatitleEN" style="display:block;"></p>
+                <p id="mediatitleJP" style="display:none;"></p>
+            </div>
+            <iframe id="JTNmedia" width="100%" height="75%" allowfullscreen></iframe>
+
+            <script src="JTNmediabuttons.js" onload="loadIndex(0)"></script>
+
+            <div class="buttonbox">
+                <button class="mediabutton JTNmediabutton" id="prev" onclick="prev()">
+                    Prev
+                </button>
+                <button class="mediabutton JTNmediabutton mid" id="0" onclick="loadIndex(0)"></button>
+                <button class="mediabutton JTNmediabutton" id="next" onclick="next()">
+                    Next
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="langbutton.js"></script>
+    <a href="https://www.bitview.net/user/JTNPeru" target="_blank">
+        <img class="sidepic" src="jtnsidepic.png" id="jtnsidepic">
+    </a>
+
+    <script src="darkmode.js"></script>
+
+    <a href="file:///C:/Users/aidan/portfoliosite/scyphpage.html">
+        <div class="pagebutton" id="scyphbutton"></div>
+    </a>
+
+    <a href="file:///C:/Users/aidan/portfoliosite/DJApage.html">
+        <div class="pagebutton" id="DJAbutton"></div>
+    </a>
+
+    <a href="file:///C:/Users/aidan/portfoliosite/sectorpage.html">
+        <div class="pagebutton" id="sectorbutton"></div>
+    </a>
+
+    <a href="file:///C:/Users/aidan/portfoliosite/nazcapage.html">
+        <div class="pagebutton" id="JTNbutton"></div>
+    </a>
+</body>
+
+</html>
