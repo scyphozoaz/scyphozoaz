@@ -1,4 +1,4 @@
-const vid0 = "http://www.bitview.net/embed?v=7kxUezqJ"
+const vid0 = "https://www.youtube.com/embed/D3H341rz36o?si=Upcs9i5QWwcep6gF"
 
 const title0 = "Jikuu Tenshou Nazca AMV - Would? (Alice in Chains)"
 
