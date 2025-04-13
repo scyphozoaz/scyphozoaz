@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Gunship';
+    src: url('GunshipBoldItalic.woff2') format('woff2'),
+        url('GunshipBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship';
+    src: url('GunshipBold.woff2') format('woff2'),
+        url('GunshipBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship 3D';
+    src: url('Gunship3D.woff2') format('woff2'),
+        url('Gunship3D.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Academy';
+    src: url('GunshipAcademyItalic.woff2') format('woff2'),
+        url('GunshipAcademyItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Condensed';
+    src: url('GunshipCondensed.woff2') format('woff2'),
+        url('GunshipCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship';
+    src: url('Gunship.woff2') format('woff2'),
+        url('Gunship.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Academy';
+    src: url('GunshipAcademy.woff2') format('woff2'),
+        url('GunshipAcademy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship 3D';
+    src: url('Gunship3DItalic.woff2') format('woff2'),
+        url('Gunship3DItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Expanded';
+    src: url('GunshipExpandedItalic.woff2') format('woff2'),
+        url('GunshipExpandedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Expanded';
+    src: url('GunshipExpanded.woff2') format('woff2'),
+        url('GunshipExpanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Laser';
+    src: url('GunshipLaser.woff2') format('woff2'),
+        url('GunshipLaser.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Gradient';
+    src: url('GunshipGradientItalic.woff2') format('woff2'),
+        url('GunshipGradientItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Halftone';
+    src: url('GunshipHalftone.woff2') format('woff2'),
+        url('GunshipHalftone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Condensed';
+    src: url('GunshipCondensedItalic.woff2') format('woff2'),
+        url('GunshipCondensedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Laser';
+    src: url('GunshipLaserItalic.woff2') format('woff2'),
+        url('GunshipLaserItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship';
+    src: url('GunshipItalic.woff2') format('woff2'),
+        url('GunshipItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Halftone';
+    src: url('GunshipHalftoneItalic.woff2') format('woff2'),
+        url('GunshipHalftoneItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Gradient';
+    src: url('GunshipGradient.woff2') format('woff2'),
+        url('GunshipGradient.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Super';
+    src: url('GunshipSuper-Italic.woff2') format('woff2'),
+        url('GunshipSuper-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Outline';
+    src: url('GunshipOutline.woff2') format('woff2'),
+        url('GunshipOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Outline';
+    src: url('GunshipOutlineItalic.woff2') format('woff2'),
+        url('GunshipOutlineItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Leftalic';
+    src: url('GunshipLeftalic.woff2') format('woff2'),
+        url('GunshipLeftalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunship Semi';
+    src: url('GunshipSemi-Italic.woff2') format('woff2'),
+        url('GunshipSemi-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

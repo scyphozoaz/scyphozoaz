@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="websitestylesheet.css">
+</head>
+<body>
+    <div class="header">
+            <img class="headerimage" src="djaheader.png">
+    </div>
+
+    <script src="darkmode.js"></script>
+    <button class="settingbutton toggledark DJAstyle" id="darkmodebutton" onclick="darkDJA()" style="border: 5px solid #970000;">Dark Mode</button>
+
+    <button class="settingbutton langtoggle DJAstyle" id="langtogglebutton" style="border: 5px solid #970000;" onclick="switchLang()">日本語</button>
+
+    <div class="mainbody DJAstyle" id="DJA" style="border: 5px solid #970000;">
+        <p id="en" style="display:block;">
+            My main alias for original works in whatever genres I feel like making. Influenced by
+            metal, techno, and HexD. Click on Archfiend on the right to visit the Bandcamp page.
+            <br><br>
+            This alias began mostly as a joke; The first DJ ARCHFIEND album was essentially just a collection of OST music sped up and bitcrushed.
+            Since then, the alias became a stage for me to explore different styles while honing my production, all motivated by producing live sets for the annual
+            Skylive event. It's essentially the audiovisual equivalent of me playing with action figures.
+            <br><br>
+            This has culminated in the project's current defining work, 'DJ ARCHFIEND @ SKYLIVE 2024' (shown below), which I feel best displays the
+            current identity and future direction for the alias. If you don't have time to watch the full set, some individual music video clips are showcased. 
+        </p>
+        <p id="jp" style="font-size: 13pt; display:none;">
+            これは私の気の向くままに作るその他のオリジナル音楽の作品のための別名義です。日本のロックやテクノなどHexDなどに影響を受けています。
+            右の「Archfiend」をクリックすると、Bandcampのページに移動します。
+            <br><br>
+            この名義はほとんど冗談のような形で始まりました。最初のアルバムは、実質的にはスピードアップして歪ませたサントラ音楽の寄せ集めでした。
+            それ以降、この名義はさまざまなスタイルを模索しながら制作の腕を磨く場となりました。
+            すべては年に一度の「Skylive」イベントに向けたライブセット制作が原動力です。
+            <br><br>
+            これまでの成果が結集したのが、現在のプロジェクトの象徴的な作品である「DJ ARCHFIEND @ SKYLIVE 2024」（下記に表示）です。
+            これがこの名義の現在のアイデンティティと今後の方向性を最もよく表していると感じています。
+            全部を見る時間がない場合は、いくつかの個別のMVも紹介しています。
+        </p>
+        <div class="mediabox" style="border: 5px solid #970000;">
+            
+            <div class="mediatitle DJAstyle">
+                <p id="mediatitleEN" style="display:block;"></p>
+                <p id="mediatitleJP" style="display:none;"></p>
+            </div>
+
+            <iframe id="DJAmedia" width="100%" height="75%" allowfullscreen></iframe>
+
+            <script src="DJAmediabuttons.js" onload="loadIndex(0)"></script>
+
+            <div class="buttonbox">
+                <button class="mediabutton DJAmediabutton" id="prev" onclick="prev()">
+                    Prev
+                </button>
+                <button class="mediabutton DJAmediabutton mid" id="0" onclick="loadIndex(0)"></button>
+                <button class="mediabutton DJAmediabutton mid" id="1" onclick="loadIndex(1)"></button>
+                <button class="mediabutton DJAmediabutton mid" id="2" onclick="loadIndex(2)"></button>
+                <button class="mediabutton DJAmediabutton" id="next" onclick="next()">
+                    Next
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="langbutton.js"></script>
+
+
+    <a href="https://djarchfiend.bandcamp.com/" target="_blank">
+        <img class="sidepic" src="djasprite5.png" id="DJAsidepic">
+    </a>
+
+    <a href="scyphpage.html">
+        <div class="pagebutton" id="scyphbutton"></div>
+    </a>
+
+    <a href="DJApage.html">
+        <div class="pagebutton" id="DJAbutton"></div>
+    </a>
+    
+    <a href="sectorpage.html">
+        <div class="pagebutton" id="sectorbutton"></div>
+    </a>
+
+    <a href="nazcapage.html">
+        <div class="pagebutton" id="JTNbutton"></div>
+    </a>
+</body>
+
+
+
+
+
+</html>
